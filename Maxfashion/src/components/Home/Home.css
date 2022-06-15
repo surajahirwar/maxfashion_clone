@@ -34,3 +34,48 @@
     position: relative;
     width: 90%;
 }
+
+.main_card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+    align-items: center;
+}
+
+.main_card span{
+position: relative;
+left: -450px;   
+font-size: 40px;
+padding-top: 50px;
+   
+    
+}
+.main_card_main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    padding-bottom: 50px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+
+}
+.main_card_main h5{
+    margin-top: 10px;
+}
+
+.main_card_main img{
+    width: 183px;
+    cursor: pointer;
+
+}
+
+.trendincard{
+    display: flex;
+    gap: 10px;
+}
+
+.trendincard img{
+    width: 400px;
+}

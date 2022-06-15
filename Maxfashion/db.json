@@ -1,0 +1,74 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "Topwear",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Dresses",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Bottom Wear",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Kurtas",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Suits Sets",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Fusion Dresses",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Ethnic Bottoms",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Lingerie",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Sportswear",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Accessories",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Sleepwear",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Trending Stores",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard12.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 10,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

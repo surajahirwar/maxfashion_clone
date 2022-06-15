@@ -1,7 +1,6 @@
 .top_header{
     display: flex;
     justify-content: space-between;
-    
     background-color: black;
     color:  white;
     padding: 10px;
@@ -31,6 +30,8 @@
     display: flex;
     justify-content: space-around;
     width: 400px;
+    align-items: center;
+    text-align: center;
     margin-right:40px;
 
 
@@ -48,6 +49,7 @@
     background-color: rgb(247,248,247);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .bottom_header_inner1{
@@ -135,9 +137,11 @@
     background-color: white;
     color: black;
     padding: 10px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px; */
     gap: 1px;
     display: flex;
+    text-align: center;
+
     justify-content: center;
     
 
@@ -150,6 +154,7 @@
     justify-content: space-between;
     font-size: 12px;
     font-weight: 600;
+    align-items: center;
     font-family: sans-serif;
     width: 92%;
 
