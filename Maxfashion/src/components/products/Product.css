@@ -1,0 +1,120 @@
+.product_main{
+
+    font-family: sans-serif;
+    font-size: 15px;
+   
+}
+
+.product_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+.product_inner_div{
+    /* border: 2px solid green; */
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.product_div_img{
+    display: flex;
+    justify-content: space-around;
+    align-items:end;
+    flex-direction: column;
+    
+
+        
+    
+}
+.product_div_img_tag{
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    background-color: white;
+    font-size: 11px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 5px;
+    
+}
+
+.product_inner_div:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.product_inner_div:hover .main_hover_div{
+    visibility: visible;
+}
+
+.product_div img{
+    width: 265px;
+}
+
+.main_inner_product{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+
+}
+.main_hover_div{
+    visibility: hidden;
+
+}
+
+
+.main_inner_product_img{
+    border: 2px solid rgb(236, 234, 234);
+    width: 50%;
+}
+.main_inner_product_img img{
+    width: 40px;
+}
+
+.main_inner_product select{
+        padding: 10px;
+        outline: none;
+        padding: 13px;
+}
+    
+.main_inner_product_button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(48,58,178);
+    color: white;
+    border: none;
+    position:relative;
+}
+.filter_div_main{
+    background-color: rgb(236,237,235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter_div{
+display: flex;
+padding: 10px;
+gap: 10px;
+width: 90%;
+}
+.filter_div select{
+    padding: 10px;
+    outline: none;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 12px;
+    /* font-weight: 600; */
+    color: rgb(153, 153, 153);
+
+    
+}

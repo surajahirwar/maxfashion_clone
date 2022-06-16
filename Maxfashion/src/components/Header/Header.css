@@ -58,6 +58,7 @@
     width: 400px;
     /* border: 1px solid red; */
     margin-left: 40px;
+
 }
 .bottom_header_inner1 div{
     /* background-color: black; */
@@ -68,9 +69,20 @@
     padding: 20px;
 }
 
+.Linkspan{
+    text-decoration: none;
+    color:  black;
+    cursor: pointer;
+}
 .bottom_header_inner1 img{
     height: 20px;
+    cursor: pointer;
     width: 80px;
+}
+.hover_div:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
 }
 
 .false{

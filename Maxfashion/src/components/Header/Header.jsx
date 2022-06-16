@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css"
 import logo from "../../../public/Images/logo.png" 
+import { Link } from "react-router-dom";
 export default function Header() {
 
     return (
@@ -42,19 +43,30 @@ export default function Header() {
               <div className="bottom_header">
                 <div className="bottom_header_inner1">
                         <div>
+                            <Link  to="/">
                             <img src={logo} />
+                            </Link>
                         </div>
-                        <div>
-                            <span>Women</span>
+                        <div className="hover_div">
+                            <Link className="Linkspan" to="/women">
+                            <span >Women</span>
+                            </Link>
                         </div>
-                        <div>
+                        <div className="hover_div">
+                            <Link className="Linkspan" to="/men" >
                             <span>Men</span>
+                            </Link>
                         </div>
-                        <div>
+                        <div className="hover_div">
+                            <Link className="Linkspan" to="/girls" >
                             <span>Girls</span>
+                            </Link>
                         </div>
-                        <div>
+                        <div className="hover_div"> 
+                            <Link className="Linkspan" to="/boys" >
                             <span>Boys</span>
+                            </Link> 
+                           
                         </div>
 
                 </div>
@@ -81,20 +93,22 @@ export default function Header() {
 
               </div>
               <div className="bottom_header_tow">
-                <div><span>Online Exclusives</span>
-                <span>Curves (Plus Size)</span>
-                <span>Tops</span>
-                <span>Bottoms</span>
-                <span>Dresses & Jumpsuits</span>
-                <span>Sleepwear</span>
-                <span>Indian Wear</span>
-                <span>Sportswear</span>
-                <span>Lingerie</span>
-                <span>Accessories</span>
-                <span>Footwear</span>
-                <span>Winterwear</span>
+                <div>
+                <span className="hover_div">Online Exclusives</span>
+                <span className="hover_div">Curves (Plus Size)</span>
+                <span className="hover_div">Tops</span>
+                <span className="hover_div">Bottoms</span>
+                <span className="hover_div">Dresses & Jumpsuits</span>
+                <span className="hover_div">Sleepwear</span>
+                <span className="hover_div">Indian Wear</span>
+                <span className="hover_div">Sportswear</span>
+                <span className="hover_div">ingerie</span>
+                <span className="hover_div">Accessories</span>
+                <span className="hover_div">Footwear</span>
+                <span className="hover_div">Winterwear</span>
                 <span className="false">|</span>
-                <span>More</span></div>
+                <span className="hover_div">More</span>
+                </div>
 
               </div>
               

@@ -22,7 +22,7 @@ import gifting from "../../../public/Images/gifting.png"
 import connect from "../../../public/Images/connect.jpg"
 import { cards } from "../../../db.json"
 
-console.log("cards" , cards)
+// console.log("cards" , cards)
 import "./Home.css"
 
 export default function Home() {
