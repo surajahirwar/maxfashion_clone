@@ -9,7 +9,7 @@ export default function Men() {
 
     const [data, setdata] = useState([])
     useEffect(()=> {
-        axios.get("http://localhost:8080/women/")
+        axios.get("http://localhost:8080/men/")
         .then((e)=> setdata(e.data))
     },[])
     // console.log(data);
