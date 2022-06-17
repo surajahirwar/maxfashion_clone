@@ -2,11 +2,21 @@ import React from "react";
 import "./Header.css"
 import logo from "../../../public/Images/logo.png" 
 import { Link } from "react-router-dom";
+import Sign from "./Sign";
+import { useState } from "react";
+import Otp from "./Otp";
+import { useDispatch, useSelector } from "react-redux";
+import { logoutApi } from "../../Redux/Auth/auth.action";
 export default function Header() {
-
+    const dispatch = useDispatch()
+    const [toggle, settoggle] = useState(true)
+    const { isAuth} = useSelector((state)=> state.auth);
+    
+  const handleLoginClick = () => {
+    dispatch(logoutApi());
+  };
     return (
           <div>
-  
               <div className="top_header">
                   <div className="top_header_inner">
                           <div>
@@ -83,10 +93,14 @@ export default function Header() {
                 <div className="bottom_header_inner3">
                 
                     <div>
-                        <span>Sign Up - Sign In</span>
+                        <span type="button"onClick={handleLoginClick}>
+                                    {isAuth ? "Logout" : "Login"}</span>
                         <span className="false"> | </span>
-                        <span> Basket<i className="fa fa-shopping-bag" aria-hidden="true"></i></span>
+                        <Link className="Linkspan" to="/cart" ><span> Basket<i className="fa fa-shopping-bag" aria-hidden="true"></i></span></Link> 
                     </div>
+                   
+    
+                           
 
                 </div>
 
@@ -112,8 +126,28 @@ export default function Header() {
 
               </div>
               
+                <div className="modal fade" id="exampleModal"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog ">
+                        <div className="modal-content p-6 ">
+                            <div className="modal-header">
+                                <h5  className="modal-title display-6" id="exampleModalLabel">Sign up or Sign in</h5>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                           { toggle ? <Sign /> : <Otp />}
+                            <div className="modal-footer">
+                               
+                               {toggle ? <button onClick={()=> settoggle(!toggle)} type="button" className="btn btn-primary ">CONTINUE</button> : 
+                                <button onClick={()=> settoggle(!toggle)} type="button" className="btn btn-success" data-bs-dismiss="modal">Verify</button>
+                               } 
+                            </div>
+                            </div>
+                        </div>
+
+                        
+                </div>
   
-          </div>
+      
+        </div>
           
           
       )

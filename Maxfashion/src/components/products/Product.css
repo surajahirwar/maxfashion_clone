@@ -118,3 +118,9 @@ width: 90%;
 
     
 }
+
+.loading_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

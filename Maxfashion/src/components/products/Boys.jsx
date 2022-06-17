@@ -1,21 +1,22 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect } from "react";
 import "./Product.css"
-// import Hover from "./Hover";
+import { useDispatch, useSelector } from "react-redux";
+import { getMenData} from "../../Redux/Fetchdata/data.action";
+
 export default function Boys() {
-    const [isHover, setHover] = useState(false);
+  
+const dispatch = (useDispatch());
+const {data, getdata} = useSelector((state)=> state.data)
+// console.log(data)
+useEffect(()=> {
+    dispatch(getMenData())
+}, [])
 
-
-
-    const [data, setdata] = useState([])
-    useEffect(()=> {
-        axios.get("http://localhost:8080/men/")
-        .then((e)=> setdata(e.data))
-    },[])
-    // console.log(data);
+if(getdata.loading) return <div className="loading_div"><img src="https://i.imgur.com/buO4Nt2.gif" /></div>
+if(getdata.error) return <div>Error...</div>
   return (
     <div className="product_main">
-         <div className="filter_div_main">
+       <div className="filter_div_main">
        <div className="filter_div">
             <div>
                 <select>
@@ -38,12 +39,10 @@ export default function Boys() {
         </div>
         <div className="product_div">
             {data.map((e)=> (
-               <div key={e.id} className="product_inner_div"
-               onMouseEnter={() => setHover(true)}
-               onMouseLeave={() => setHover(false)}>
+               <div key={e.id} className="product_inner_div">
                <div className="product_div_img">
-                   <img src={e.image} />  
-                   <span className="product_div_img_tag">ONLINE ONLY</span>  
+                   <img src={e.image} />
+                   <span className="product_div_img_tag">ONLINE ONLY</span>    
                </div>    
                <div>
                    <h5>₹ {e.price}</h5>

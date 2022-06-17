@@ -1,0 +1,247 @@
+
+.main{
+    position: relative;
+    min-height: 100vh;
+    width: 90%;
+   margin: auto;
+
+
+}
+.main .your_s{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #cacaca;
+}
+.main .your_s2{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    /*background: #ccc;*/
+}
+.main_bx{
+    position: relative;
+    min-height: auto;
+    width: 65%;
+    margin: 10px 0;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2)
+}
+.main_bx .box{
+    position: relative;
+    height: 100%; 
+    width: 100%; 
+}
+.main_bx .box .box2{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.main_bx .box .box2 .imgBx{
+    position: relative;
+    height: 180px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid black;*/
+}
+.main_bx .box .box2 .imgBx img{
+    position: relative;
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+.main_bx .box .box2 .details{
+    position: relative;
+    height: auto;
+    width: 70%;
+    padding: 0 20px;
+    /* border: 1px solid black; */
+}
+.main_bx .box .qtyBx{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background: red;*/
+}
+.qtyBx_span{
+    display: flex;
+
+}
+
+
+.qtyBx_span_div{
+    color: rgb(194, 194, 194);
+}
+.main_bx .box .qtyBx span i{
+    font-size: 12px;
+    
+}
+.main_bx .box .qtyBx span:first-child{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background: blue;*/
+}
+.main_bx .box .qtyBx span select{
+    padding: 3px 5px;
+    /*background: #cccc;*/
+}
+.main_bx .box .qtyBx span{
+    position: relative;
+    line-height: 0px;
+    padding: 0 20px;
+    display: flex;
+    /*border: 1px solid black;*/
+}
+.main_bx .box .box_f{
+    position: relative;
+    height: 60px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #cccc;
+    /*background: red;*/
+}
+.main_bx .box .box_f span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.main_bx .box .box_f span button{
+    border: none;
+    color: royalblue;
+    padding: 5px 10px;
+    background: none;
+    cursor: pointer;
+}
+.sidbx{
+    position: absolute;
+    right: -40px;
+    top: 140px;
+    min-height: 50vh;
+    width: 37%;
+
+    /*border: 1px solid black;*/
+}
+.sidbx .inputBx{
+    position: relative;
+    min-height: 100px;
+    width: 90%;
+    padding: 0 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2)
+}
+.sidbx .inputBx:first-child button{
+    color: #ccc;
+    cursor: pointer;
+}
+.sidbx .inputBx:first-child button,
+.sidbx .inputBx input{
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    border: 1px solid #cccc;
+}
+.sidbx .inputBx .imgBx{
+    position: relative;
+    height: 120px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.sidbx .inputBx .imgBx img{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+.sidbx .inputBx .details{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.sidbx .inputBx .details h2{
+    position: relative;
+    font-size: 20px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details button{
+    border: none;
+    font-size: 12px;
+    color: blue;
+    background-color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+.sidbx .inputBx .details p{
+    position: relative;
+    font-size: 15px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidbx .inputBx:last-child{
+    display: block;
+}
+.sidbx .inputBx .in1{
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 5px 0;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.sidbx .inputBx .in1:first-child{
+    border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+.sidbx .inputBx .in1 .in2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+}
+.sidbx .inputBx .in1 .in2 span:last-child{
+    font-weight: 700;
+}
+.sidbx .inputBx .in1 button{
+    position: relative;
+    margin: 5px 0;
+    border: none;
+    background: #1b00c9;
+    color: white;
+    padding: 15px 10px;
+    width: 100%;
+}

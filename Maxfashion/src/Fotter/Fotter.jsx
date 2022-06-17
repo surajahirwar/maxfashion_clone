@@ -1,8 +1,9 @@
 import React from "react";
 import "./Fotter.css"
-import logo from "../../../public/Images/logo.png"
-import apple from "../../../public/Images/apple.png"
-import play from "../../../public/Images/play.png"
+import logo from "../../public/Images/logo.png"
+import apple from "../../public/Images/apple.png"
+import play from "../../public/Images/play.png"
+
 export default function Fotter() {
 
   return (
