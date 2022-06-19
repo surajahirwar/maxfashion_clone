@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Cart.css"
-import product from  "../../../public/Images/product.jpg"
 import gift from "../../../public/Images/gift.png"
 import { useDispatch, useSelector } from "react-redux";
 import { deleteDataCart, getDataCart } from "../../Redux/Cart/cart.action";

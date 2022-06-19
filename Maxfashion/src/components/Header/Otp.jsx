@@ -20,7 +20,7 @@ export default function Otp() {
                                     <p>By creating your account you agree to our <span className="text-primary">Terms and Conditions</span></p>
                              </div>   
                                 
-                            </div>
+                            </div>  
   </div>
   
   )
