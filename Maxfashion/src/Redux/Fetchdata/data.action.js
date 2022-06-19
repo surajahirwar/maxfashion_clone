@@ -1,5 +1,5 @@
 import axios from "axios";
-import { GETDATA_ERROR, GETDATA_LOADING, GETDATA_SUCCESS } from "./data.types"
+import { GETDATA_ERROR, GETDATA_LOADING, GETDATA_SUCCESS} from "./data.types"
 
 export const getWomenData = () => (dispatch)=> {
     dispatch({ type: GETDATA_LOADING});

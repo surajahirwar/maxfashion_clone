@@ -61,469 +61,478 @@
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/Api%20image/imagecard12.jpg"
     }
   ],
-
-  
- "women": [
-  {
-    "id": 1,
-    "price" : 699,
-    "title": "MAX Women Camouflage Printed T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage.jpg"
-  },
-  {
-    "id": 2,
-    "price" : 800,
-    "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage2.jpg"
-  },
-  {
-    "id": 3,
-    "price" : 500,
-    "title": "MAX Women Printed Round Neck T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage3.jpg"
-  },
-  {
-    "id": 4,
-    "price" : 1200,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage4.jpg"
-  },
-  {
-    "id": 5,
-    "price" : 900,
-    "title": "MAX Women Camouflage Printed T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage5.jpg"
-  },
-  {
-    "id": 6,
-    "price" : 1825,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage6.jpg"
-  },
-  {
-    "id": 7,
-    "price" : 499,
-    "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage7.jpg"
-  },
-  {
-    "id": 8,
-    "price" : 699,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage8.jpg"
-  },
-  {
-    "id": 9,
-    "price" : 800,
-    "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage9.jpg"
-  },
-  {
-    "id": 10,
-    "price" : 500,
-    "title": "MAX Women Printed Round Neck T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage10.jpg"
-  },
-  {
-    "id": 11,
-    "price" : 1200,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage11.jpg"
-  },
-  {
-    "id": 12,
-    "price" : 900,
-    "title": "MAX Women Camouflage Printed T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage12.jpg"
-  },
-  {
-    "id": 13,
-    "price" : 1825,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage13.jpg"
-  },
-  {
-    "id": 14,
-    "price" : 499,
-    "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage14.jpg"
-  },
-  {
-    "id": 15,
-    "price" : 699,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage15.jpg"
-  },
-  {
-    "id": 16,
-    "price" : 800,
-    "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage16.jpg"
-  },
-  {
-    "id": 17,
-    "price" : 500,
-    "title": "MAX Women Printed Round Neck T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage17.jpg"
-  },
-  {
-    "id": 18,
-    "price" : 1200,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage18.jpg"
-  },
-  {
-    "id": 19,
-    "price" : 900,
-    "title": "MAX Women Camouflage Printed T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage19.jpg"
-  },
-  {
-    "id": 20,
-    "price" : 1825,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage20.jpg"
-  },
-  {
-    "id": 21,
-    "price" : 499,
-    "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage21.jpg"
-  },
-  {
-    "id": 22,
-    "price" : 699,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage22.jpg"
-  },
-  {
-    "id": 23,
-    "price" : 800,
-    "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage23.jpg"
-  },
-  {
-    "id": 24,
-    "price" : 500,
-    "title": "MAX Women Printed Round Neck T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage20.jpg"
-  },
-  {
-    "id": 25,
-    "price" : 1200,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage25.jpg"
-  },
-  {
-    "id": 26,
-    "price" : 900,
-    "title": "MAX Women Camouflage Printed T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage26.jpg"
-  },
-  {
-    "id": 27,
-    "price" : 1825,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage27.jpg"
-  },
-  {
-    "id": 28,
-    "price" : 499,
-    "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage28.jpg"
-  },
-  {
-    "id": 29,
-    "price" : 699,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage29.jpg"
-  },
-  {
-    "id": 30,
-    "price" : 800,
-    "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage30.jpg"
-  },
-  {
-    "id": 31,
-    "price" : 500,
-    "title": "MAX Women Printed Round Neck T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage31.jpg"
-  },
-  {
-    "id": 32,
-    "price" : 1200,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage32.jpg"
-  },
-  {
-    "id": 33,
-    "price" : 900,
-    "title": "MAX Women Camouflage Printed T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage33.jpg"
-  },
-  {
-    "id": 34,
-    "price" : 1825,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage34.jpg"
-  },
-  {
-    "id": 35,
-    "price" : 499,
-    "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage35.jpg"
-  },
-  {
-    "id": 36,
-    "price" : 699,
-    "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage36.jpg"
-  },
-  {
-    "id": 37,
-    "price" : 800,
-    "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage37.jpg"
-  },
-  {
-    "id": 38,
-    "price" : 500,
-    "title": "MAX Women Printed Round Neck T-shirt",
-    "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage38.jpg"
-  }
-  
-  
-],
-
+  "women": [
+    {
+      "id": 1,
+      "price": 699,
+      "title": "MAX Women Camouflage Printed T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage.jpg"
+    },
+    {
+      "id": 2,
+      "price": 800,
+      "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage2.jpg"
+    },
+    {
+      "id": 3,
+      "price": 500,
+      "title": "MAX Women Printed Round Neck T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage3.jpg"
+    },
+    {
+      "id": 4,
+      "price": 1200,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage4.jpg"
+    },
+    {
+      "id": 5,
+      "price": 900,
+      "title": "MAX Women Camouflage Printed T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage5.jpg"
+    },
+    {
+      "id": 6,
+      "price": 1825,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage6.jpg"
+    },
+    {
+      "id": 7,
+      "price": 499,
+      "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage7.jpg"
+    },
+    {
+      "id": 8,
+      "price": 699,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage8.jpg"
+    },
+    {
+      "id": 9,
+      "price": 800,
+      "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage9.jpg"
+    },
+    {
+      "id": 10,
+      "price": 500,
+      "title": "MAX Women Printed Round Neck T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage10.jpg"
+    },
+    {
+      "id": 11,
+      "price": 1200,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage11.jpg"
+    },
+    {
+      "id": 12,
+      "price": 900,
+      "title": "MAX Women Camouflage Printed T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage12.jpg"
+    },
+    {
+      "id": 13,
+      "price": 1825,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage13.jpg"
+    },
+    {
+      "id": 14,
+      "price": 499,
+      "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage14.jpg"
+    },
+    {
+      "id": 15,
+      "price": 699,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage15.jpg"
+    },
+    {
+      "id": 16,
+      "price": 800,
+      "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage16.jpg"
+    },
+    {
+      "id": 17,
+      "price": 500,
+      "title": "MAX Women Printed Round Neck T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage17.jpg"
+    },
+    {
+      "id": 18,
+      "price": 1200,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage18.jpg"
+    },
+    {
+      "id": 19,
+      "price": 900,
+      "title": "MAX Women Camouflage Printed T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage19.jpg"
+    },
+    {
+      "id": 20,
+      "price": 1825,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage20.jpg"
+    },
+    {
+      "id": 21,
+      "price": 499,
+      "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage21.jpg"
+    },
+    {
+      "id": 22,
+      "price": 699,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage22.jpg"
+    },
+    {
+      "id": 23,
+      "price": 800,
+      "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage23.jpg"
+    },
+    {
+      "id": 24,
+      "price": 500,
+      "title": "MAX Women Printed Round Neck T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage20.jpg"
+    },
+    {
+      "id": 25,
+      "price": 1200,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage25.jpg"
+    },
+    {
+      "id": 26,
+      "price": 900,
+      "title": "MAX Women Camouflage Printed T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage26.jpg"
+    },
+    {
+      "id": 27,
+      "price": 1825,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage27.jpg"
+    },
+    {
+      "id": 28,
+      "price": 499,
+      "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage28.jpg"
+    },
+    {
+      "id": 29,
+      "price": 699,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage29.jpg"
+    },
+    {
+      "id": 30,
+      "price": 800,
+      "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage30.jpg"
+    },
+    {
+      "id": 31,
+      "price": 500,
+      "title": "MAX Women Printed Round Neck T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage31.jpg"
+    },
+    {
+      "id": 32,
+      "price": 1200,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage32.jpg"
+    },
+    {
+      "id": 33,
+      "price": 900,
+      "title": "MAX Women Camouflage Printed T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage33.jpg"
+    },
+    {
+      "id": 34,
+      "price": 1825,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage34.jpg"
+    },
+    {
+      "id": 35,
+      "price": 499,
+      "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage35.jpg"
+    },
+    {
+      "id": 36,
+      "price": 699,
+      "title": "MAX Women Solid Round Neck T-shirt - Set Of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage36.jpg"
+    },
+    {
+      "id": 37,
+      "price": 800,
+      "title": "MAX Women Printed and Colourblocked T-shirt - Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage37.jpg"
+    },
+    {
+      "id": 38,
+      "price": 500,
+      "title": "MAX Women Printed Round Neck T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage38.jpg"
+    }
+  ],
   "men": [
     {
       "id": 1,
-      "price" : 699,
+      "price": 699,
       "title": "MAX Men Typographic Print Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt1.jpg"
     },
     {
       "id": 2,
-      "price" : 800,
+      "price": 800,
       "title": "MAX Men Striped Polo Neck T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt2.jpg"
     },
     {
       "id": 3,
-      "price" : 500,
+      "price": 500,
       "title": "MAX Men Solid Slim Fit Polo T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt3.jpg"
     },
     {
       "id": 4,
-      "price" : 1200,
+      "price": 1200,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt4.jpg"
     },
     {
       "id": 5,
-      "price" : 900,
+      "price": 900,
       "title": "MAX Men Typographic Print Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt5.jpg"
     },
     {
       "id": 6,
-      "price" : 1825,
+      "price": 1825,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt6.jpg"
     },
     {
       "id": 7,
-      "price" : 499,
+      "price": 499,
       "title": "MAX Men Solid Slim Fit Polo T-shirt- Pack of 2",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt7.jpg"
     },
     {
       "id": 8,
-      "price" : 699,
+      "price": 699,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt8.jpg"
     },
     {
       "id": 9,
-      "price" : 800,
+      "price": 800,
       "title": "MAX Men Striped Polo Neck T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt9.jpg"
     },
     {
       "id": 10,
-      "price" : 500,
+      "price": 500,
       "title": "MAX Men Solid Slim Fit Polo T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt10.jpg"
     },
     {
       "id": 11,
-      "price" : 1200,
+      "price": 1200,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt11.jpg"
     },
     {
       "id": 12,
-      "price" : 900,
+      "price": 900,
       "title": "MAX Men Typographic Print Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt12.jpg"
     },
     {
       "id": 13,
-      "price" : 1825,
+      "price": 1825,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt13.jpg"
     },
     {
       "id": 14,
-      "price" : 499,
+      "price": 499,
       "title": "MAX Men Solid Slim Fit Polo T-shirt- Pack of 2",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt14.jpg"
     },
     {
       "id": 15,
-      "price" : 699,
+      "price": 699,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt15.jpg"
     },
     {
       "id": 16,
-      "price" : 800,
+      "price": 800,
       "title": "MAX Men Striped Polo Neck T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt37.jpg"
     },
     {
       "id": 17,
-      "price" : 500,
+      "price": 500,
       "title": "MAX Men Solid Slim Fit Polo T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt17.jpg"
     },
     {
       "id": 18,
-      "price" : 1200,
+      "price": 1200,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt18.jpg"
     },
     {
       "id": 19,
-      "price" : 900,
+      "price": 900,
       "title": "MAX Men Typographic Print Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt19.jpg"
     },
     {
       "id": 20,
-      "price" : 1825,
+      "price": 1825,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt20.jpg"
     },
     {
       "id": 21,
-      "price" : 499,
+      "price": 499,
       "title": "MAX Men Solid Slim Fit Polo T-shirt- Pack of 2",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt21.jpg"
     },
     {
       "id": 22,
-      "price" : 699,
+      "price": 699,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt22.jpg"
     },
     {
       "id": 23,
-      "price" : 800,
+      "price": 800,
       "title": "MAX Men Striped Polo Neck T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt23.jpg"
     },
     {
       "id": 24,
-      "price" : 500,
+      "price": 500,
       "title": "MAX Men Solid Slim Fit Polo T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt20.jpg"
     },
     {
       "id": 25,
-      "price" : 1200,
+      "price": 1200,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt25.jpg"
     },
     {
       "id": 26,
-      "price" : 900,
+      "price": 900,
       "title": "MAX Men Typographic Print Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt26.jpg"
     },
     {
       "id": 27,
-      "price" : 1825,
+      "price": 1825,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt27.jpg"
     },
     {
       "id": 28,
-      "price" : 499,
+      "price": 499,
       "title": "MAX Men Solid Slim Fit Polo T-shirt- Pack of 2",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt28.jpg"
     },
     {
       "id": 29,
-      "price" : 699,
+      "price": 699,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt29.jpg"
     },
     {
       "id": 30,
-      "price" : 800,
+      "price": 800,
       "title": "MAX Men Striped Polo Neck T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt30.jpg"
     },
     {
       "id": 31,
-      "price" : 500,
+      "price": 500,
       "title": "MAX Men Solid Slim Fit Polo T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt31.jpg"
     },
     {
       "id": 32,
-      "price" : 1200,
+      "price": 1200,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt32.jpg"
     },
     {
       "id": 33,
-      "price" : 900,
+      "price": 900,
       "title": "MAX Men Typographic Print Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt33.jpg"
     },
     {
       "id": 34,
-      "price" : 1825,
+      "price": 1825,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt34.jpg"
     },
     {
       "id": 35,
-      "price" : 499,
+      "price": 499,
       "title": "MAX Men Solid Slim Fit Polo T-shirt- Pack of 2",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt35.jpg"
     },
     {
       "id": 36,
-      "price" : 699,
+      "price": 699,
       "title": "MAX Solid Polo Slim Fit T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt36.jpg"
     },
     {
       "id": 37,
-      "price" : 800,
+      "price": 800,
       "title": "MAX Men Striped Polo Neck T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt37.jpg"
     },
     {
       "id": 38,
-      "price" : 500,
+      "price": 500,
       "title": "MAX Men Solid Slim Fit Polo T-shirt",
       "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt5.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": 7,
+      "price": 499,
+      "title": "MAX Women Printed Round Neck T-shirt- Pack of 2",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/women/topimage7.jpg"
+    },
+    {
+      "id": 10,
+      "price": 500,
+      "title": "MAX Men Solid Slim Fit Polo T-shirt",
+      "image": "https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfashion/public/men/tshirt10.jpg"
     }
   ]
 }

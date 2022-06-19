@@ -7,6 +7,7 @@ const inital = {
 
     },
     data:[]
+   
 
 }
 
@@ -41,3 +42,4 @@ export const dataReducer = (state=inital, { type, payload })=> {
         }
     }
 };
+

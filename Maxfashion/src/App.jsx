@@ -9,6 +9,8 @@ import Women from './components/products/Women'
 import Cart from './components/Cart/Cart'
 import Login from './components/Home/Login'
 import RequiredAuth from './hoc/RequiredAuth'
+import Checkout from './checkout/Checkout'
+
 
 function App() {
 
@@ -17,17 +19,15 @@ function App() {
      
       <Header /> 
       <Routes>
-        <Route path="/" element={
-        <RequiredAuth>  <Home />
-        </RequiredAuth>} />
-        <Route path="/women" element={
-           <RequiredAuth> <Women /> </RequiredAuth>} />
-        <Route path="/men" element={
-                  <Men />} />
+        <Route path="/" element={ <Home /> } />
+        <Route path="/women" element={ <Women /> } />
+        <Route path="/men" element={  <Men /> } />
         <Route path="/girls" element={<Girls />} />
         <Route path="/boys" element={<Boys />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/cart" element={ 
+                       <RequiredAuth>   <Cart /> </RequiredAuth>} />
         <Route path="/login" element={<Login />} />
+        <Route path="Checkout" element={ <RequiredAuth> <Checkout /></RequiredAuth> } />
       </Routes>
     
       <Fotter />

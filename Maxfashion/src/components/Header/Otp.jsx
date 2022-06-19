@@ -3,6 +3,7 @@ import React from "react";
 export default function Otp() {
   return (
   <div>
+    
 
      <div className="modal-body">
              <div className="text-wrap text-secondary">
@@ -11,7 +12,7 @@ export default function Otp() {
                                 <div>
                                     <h6>Verify with OTP</h6>
                                     <div className="input-group mb-3">
-                                    <input  type="number" className="form-control p-3 border border-1" placeholder="Enter your mobile number" aria-label="text-white" aria-describedby="basic-addon1" /> 
+                                    <input value="1234"  type="number" className="form-control p-3 border border-1" placeholder="Enter your mobile number" aria-label="text-white" aria-describedby="basic-addon1" /> 
                                     </div>
 
                                 </div>

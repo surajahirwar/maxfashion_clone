@@ -1,0 +1,334 @@
+
+.headdiv{
+    position: relative;
+    min-height: 100vh;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    /*border: 1px solid black;*/
+}
+.headdiv .box{
+    position: relative;
+    min-height: 100vh;
+    width: 60%;
+    padding: 20px 0;
+    /*border: 1px solid black;*/
+}
+.headdiv .box .head{
+    position: relative;
+    /*height: 50px;*/
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.headdiv .box .head_btn{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.headdiv .box .head_btn button{
+    position: relative;
+    width: 48%;
+    background: none;
+    border: none;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5)
+}
+.headdiv .box .head_btn button.active{
+    box-shadow: none;
+    /*border-radius: 4px;*/
+    border: 2px solid #2300ad;
+}
+.headdiv .box .add{
+    position: relative;
+    border-bottom: 1px solid #cccc;
+    /*height: 50vh;*/
+}
+.headdiv .box .add h2{
+    position: relative;
+    height: 80px;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.headdiv .box .add .inputBx{
+    position: relative;
+    height: 80px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+}
+.headdiv .box .add .inputBx span{
+    position: relative;
+    padding: 10px 0;
+    font-weight: 900;
+}
+.headdiv .box .add .inputBx select,
+.headdiv .box .add .inputBx input[type=text]{
+    position: relative;
+    height: 35px;
+    border: none;
+    width: 100%;
+    border: 1px solid #cccc;
+}
+.headdiv .box .add .inputBx span label{
+    color: #ccc;
+    font-weight: 100;
+    font-size: 15px;
+}
+.headdiv .box .add .inputBx:last-child{
+    position: relative;
+    height: 100px;
+}
+.headdiv .box .add .inputBx .radio{
+    position: relative;
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+}
+.headdiv .box .add .inputBx .radio input[type=radio]{
+    height: 15px;
+    width: 15px;
+}
+
+
+
+.cardDe{
+    position: relative;
+    /*top: 25px;*/
+    padding: 20px 0;
+    min-height: 50vh;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.cardDe .card_head{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.cardDe .debit{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    /*border: 1px solid black;*/
+}
+.cardDe .debit .imgBx{
+    position: relative;
+    height: 80px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+.cardDe .debit .imgBx img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+.cardDe .debit .c_side{
+    position: relative;
+    padding: 0 20px;
+}
+.cardDe .debit .options{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+.cardDe .card{
+    position: relative;
+    min-height: 10vh;
+    width: 50%;
+    /*border: 1px solid black;*/
+}
+.cardDe .card .c_input{
+    position: relative;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+    /*border: 1px solid black;*/
+}
+.cardDe .card .c_input span{
+    position: relative;
+    width: 100%;
+    text-align: start;
+    /*border: 1px solid black;*/
+}
+.cardDe .card .c_input input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+.cardDe .card .selectBx{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.cardDe .card .selectBx .s_head{
+    position: relative;
+    height: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+}
+.cardDe .card .selectBx input[type=text]{
+    position: relative;
+    height: 35px;
+    width: 120px;
+}
+.cardDe .card .selectBx select{
+    position: relative;
+    height: 40px;
+    width: 80px;
+    margin: 20px;
+}
+
+.cardDe .card .action{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+}
+.cardDe .card .action h4{
+    position: relative;
+    text-align: start;
+    /*border: 1px solid black;*/
+}
+.cardDe .card .action span{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    text-align: start;
+    /*border: 1px solid black;*/
+}
+.cardDe  .buttonBx{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.cardDe .buttonBx span{
+    position: relative;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.cardDe .buttonBx button{
+    position: relative;
+    padding: 10px 80px;
+    border: none;
+    color: white;
+    background: #2a00c2;
+}
+
+
+
+
+
+
+.headdiv2{
+    position: relative;
+    min-height: 50vh;
+    width: 40%;
+    padding: 0 10px;
+    margin: 10px 0;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    box-shadow: 0 0 2px rgba(0,0,0,0.2)
+}
+
+.headdiv2 .m_bx{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    max-height: 450px;
+    overflow-y: scroll;
+    /*background: red; */
+}
+/*.headdiv2 .m_bx::-webkit-scrollbar {
+  width: 10px;
+  /*background-color: red;*/
+/*}*/
+.headdiv2 .m_bx .item_bx{
+    position: relative;
+    height: 100px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #cccc;
+    /*border: 1px solid black;*/
+}
+.headdiv2 .m_bx .item_bx .imgBx{
+    position: relative;
+    height: 150px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.headdiv2 .m_bx .item_bx .imgBx img{
+    position: relative;
+    height: 50%;
+    width: 40%;
+    object-fit: cover;
+}
+.headdiv2 .m_bx .item_bx .details2{
+    position: relative;
+    height: 100%;
+    width: 70%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.headdiv2 .m_bx .item_bx .details2 span{
+    position: relative;
+    top: -10px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    width: 95%;
+    line-height: 0;
+   margin-top: 10px;
+    /* background: red; */
+    /*border: 1px solid black;*/
+}
+.headdiv2 .m_bx .qtyBx{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background: red;*/
+}

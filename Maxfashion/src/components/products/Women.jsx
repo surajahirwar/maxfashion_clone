@@ -2,17 +2,25 @@ import React, { useEffect } from "react";
 import "./Product.css"
 import { useDispatch, useSelector } from "react-redux";
 import { getWomenData } from "../../Redux/Fetchdata/data.action";
+import { addDataCart } from "../../Redux/Cart/cart.action";
 
 export default function Women() {
+
+    const alertkaro = ()=>{
+            alert("product add successfully")
+    }
   
 const dispatch = (useDispatch());
 const {data, getdata} = useSelector((state)=> state.data)
-// console.log(data)
-useEffect(()=> {
-  
-        dispatch(getWomenData())
 
+useEffect(()=> {
+        dispatch(getWomenData())
+    
 }, [])
+
+const handleAddtoCart=(e)=>{
+    dispatch(addDataCart(e))
+  }
 
 if(getdata.loading) return <div className="loading_div"><img src="https://i.imgur.com/buO4Nt2.gif" /></div>
 if(getdata.error) return <div>Error...</div>
@@ -25,14 +33,13 @@ if(getdata.error) return <div>Error...</div>
                     <option>Sort by Price</option>
                     <option>low to high</option>
                     <option>high to low</option>
-
                 </select>
             </div>
             <div>
                 <select>
                     <option> Sort by Order</option>
-                    <option>low to high</option>
-                    <option>high to low</option>
+                    <option>ascending</option>
+                    <option>descending</option>
 
                 </select>
             </div>
@@ -64,7 +71,7 @@ if(getdata.error) return <div>Error...</div>
                         </select>
                     </div>
                 </div>
-                <button className="main_inner_product_button">ADD TO BASKET</button>
+                <button  className="main_inner_product_button" onClick={()=>{handleAddtoCart(e), alertkaro()}}>ADD TO BASKET</button>
                 </div>
                 {/* <Hover key={e.id} e={e} /> */}
            

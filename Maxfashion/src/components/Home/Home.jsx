@@ -24,12 +24,19 @@ import { cards } from "../../../db.json"
 
 // console.log("cards" , cards)
 import "./Home.css"
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+
+    const navigate = useNavigate()
+
+   const redireact = () =>{
+        navigate("/women")
+   } 
   return (
         <div>
 
-<div id="carouselExampleControls" className="carousel slide forshadow " data-bs-ride="carousel">
+<div onClick={() => redireact()} id="carouselExampleControls" className="carousel slide forshadow " data-bs-ride="carousel">
     <center>
   <div className="carousel-inner main_slider">
     <div className="carousel-item slider active">
@@ -59,7 +66,7 @@ export default function Home() {
 
 {/* <---------second----------> */}
 
-<div className="freetag">
+<div onClick={() => redireact()} className="freetag">
         <div className="freetag_main">
             <img  src={freetag} />
         </div>
@@ -67,7 +74,7 @@ export default function Home() {
 
 {/* <-------third----> */}
 
-<div className="printed">
+<div onClick={() => redireact()} className="printed">
     <div className="printed_main">
     <div>
     <span>Budget Buy</span>
@@ -81,7 +88,7 @@ export default function Home() {
 {/* <------four----> */}
 
 
-<div className="printed">
+<div onClick={() => redireact()} className="printed">
     <div className="printed_main">
     <div>
     <span>The Joy Of Gifting!</span>
@@ -97,7 +104,7 @@ export default function Home() {
 {/* <-------fifth-------> */}
 
 
-<div className="main_card">
+<div onClick={() => redireact()} className="main_card">
       <span >Shop By Category</span>
      <div className="main_card_main">
       {cards.map((e)=> (
@@ -118,7 +125,7 @@ export default function Home() {
 
 
 
-<div className="printed">
+<div onClick={() => redireact()} className="printed">
     <div className="printed_main">
     <div>
     <span>Trending Stores</span>
@@ -135,7 +142,7 @@ export default function Home() {
 
 {/* <----------seven--------> */}
 
-<div className="printed">
+<div onClick={() => redireact()} className="printed">
     <div className="printed_main">
     <div>
     <span>Budget Zone</span>
@@ -153,7 +160,7 @@ export default function Home() {
 {/* <---------eight----> */}
 
 
-<div className="printed">
+<div onClick={() => redireact()} className="printed">
     <div className="printed_main">
     <div>
     <span>Monsoon Checklist</span>
@@ -169,7 +176,7 @@ export default function Home() {
 {/* <------nine-------> */}
 
 
-<div className="printed">
+<div onClick={() => redireact()}  className="printed">
     <div className="printed_main">
     <div>
     <span>Youth Store</span>
@@ -183,7 +190,7 @@ export default function Home() {
 {/* <---------ten-----------> */}
 
 
-<div className="printed">
+<div onClick={() => redireact()} className="printed">
     <div className="printed_main">
     <div>
     <span>Sports Must-Haves</span>
@@ -201,7 +208,7 @@ export default function Home() {
 {/* <------------eleven---------> */}
 
 
-<div className="printed">
+<div onClick={() => redireact()} className="printed">
     <div className="printed_main">
     <div>
         <img src={view1} className="d-block w-100" alt="..." />  
@@ -213,7 +220,7 @@ export default function Home() {
 {/* <----------twelve---------> */}
 
 
-<div className="printed">
+<div onClick={() => redireact()} className="printed">
     <div className="printed_main">
     <div>
     <span>Gifting Zone</span>
@@ -228,7 +235,7 @@ export default function Home() {
 
 
 
-<div className="printed">
+<div onClick={() => redireact()} className="printed">
     <div className="printed_main">
     <div>
     <span>Connect With Us</span>

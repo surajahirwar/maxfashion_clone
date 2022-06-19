@@ -13,6 +13,8 @@ export default function Header() {
     const { isAuth} = useSelector((state)=> state.auth);
     
   const handleLoginClick = () => {
+
+    
     dispatch(logoutApi());
   };
     return (
@@ -93,8 +95,7 @@ export default function Header() {
                 <div className="bottom_header_inner3">
                 
                     <div>
-                        <span type="button"onClick={handleLoginClick}>
-                                    {isAuth ? "Logout" : "Login"}</span>
+                    {isAuth ? <span type="button"onClick={handleLoginClick}>Logout</span> : <span data-bs-toggle="modal" data-bs-target="#exampleModal" >Login</span>} 
                         <span className="false"> | </span>
                         <Link className="Linkspan" to="/cart" ><span> Basket<i className="fa fa-shopping-bag" aria-hidden="true"></i></span></Link> 
                     </div>
@@ -137,15 +138,16 @@ export default function Header() {
                             <div className="modal-footer">
                                
                                {toggle ? <button onClick={()=> settoggle(!toggle)} type="button" className="btn btn-primary ">CONTINUE</button> : 
-                                <button onClick={()=> settoggle(!toggle)} type="button" className="btn btn-success" data-bs-dismiss="modal">Verify</button>
+                                <button onClick={()=> settoggle(!toggle)} type="button" className="btn btn-success" data-bs-dismiss="modal"><Link to="/login">Verify</Link></button>
                                } 
                             </div>
                             </div>
+                            
                         </div>
 
                         
                 </div>
-  
+                                
       
         </div>
           

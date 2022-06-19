@@ -1,3 +1,4 @@
 export const GETDATA_LOADING  = "GETDATA_LOADING";
 export const GETDATA_SUCCESS = "GETDATA_SUCCESS";
 export const GETDATA_ERROR = "GETDATA_ERROR";
+
