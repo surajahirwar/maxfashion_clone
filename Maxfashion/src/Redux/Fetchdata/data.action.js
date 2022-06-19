@@ -3,7 +3,7 @@ import { GETDATA_ERROR, GETDATA_LOADING, GETDATA_SUCCESS} from "./data.types"
 
 export const getWomenData = () => (dispatch)=> {
     dispatch({ type: GETDATA_LOADING});
-    axios.get("http://localhost:8080/women")
+    axios.get("https://maxfashionbackendclone.herokuapp.com/women")
     .then((e)=>{
         dispatch({type:GETDATA_SUCCESS, payload:e.data})
     })  
@@ -13,7 +13,7 @@ export const getWomenData = () => (dispatch)=> {
 }
 export const getMenData = () => (dispatch)=> {
     dispatch({ type: GETDATA_LOADING});
-    axios.get("http://localhost:8080/men")
+    axios.get("https://maxfashionbackendclone.herokuapp.com/men")
     .then((e)=>{
         dispatch({type:GETDATA_SUCCESS, payload:e.data})
     })  
