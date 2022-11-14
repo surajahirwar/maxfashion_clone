@@ -1,4 +1,4 @@
-## _Max Fashion(Clone)_
+## _Max Fashion(Clone)__
 
 Project: Cloning [Max Fashion](https://www.maxfashion.in/in/en/department/maxmen) site.
 
